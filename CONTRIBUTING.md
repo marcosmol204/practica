@@ -72,7 +72,7 @@ graph
 Typically, the two main sections are the Microservice (apps) and cross-cutting-concern libraries:
 
 ```mermaid
-%%{init: {'theme': 'forest', 'themeVariables': { 'primaryColor': '#ff0000', 'fontWeight': 'bold', 'fontFamily': 'comfortaa, Roboto'}}}%%
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#ff0000', 'fontWeight': 'bold', 'fontFamily': 'comfortaa, Roboto'}}}%%
 graph
       A[Code Templates] -->|The example Microservice/app| B(Services)
       B -->|Where the API, logic and data lives| D(Example Microservice)
